@@ -1,0 +1,38 @@
+.page-footer{
+  outline: 2px solid rgb(241, 10, 222);
+  margin: 0;
+}
+
+.page-footer__container{
+  width: 280px;
+  margin: 0 auto;
+}
+.page-footer__link{
+  font-family: $basic-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.page-footer__contact{
+  outline: 2px solid rgb(241, 10, 222);
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 33px;
+}
+
+
+.page-footer__copyright{
+  outline: 2px solid rgb(241, 10, 222);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 143px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
