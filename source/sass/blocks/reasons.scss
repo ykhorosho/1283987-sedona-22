@@ -1,4 +1,4 @@
-.reasons{
+.reasons {
   outline: 2px solid rgb(241, 10, 172);
   margin: 0 auto;
   display: flex;
@@ -6,7 +6,7 @@
   width: 285px;
 }
 
-.reasons__title{
+.reasons__title {
   display: flex;
   width: 285px;
   font-family: $basic-font;
@@ -16,10 +16,10 @@
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color:$black;
+  color: $black;
 }
 
-.reasons__text{
+.reasons__text {
   font-family: $basic-font;
   font-weight: normal;
   font-size: 14px;

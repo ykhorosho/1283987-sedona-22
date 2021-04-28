@@ -1,22 +1,22 @@
-.advantages{
+.advantages {
   outline: 2px solid rgb(226, 241, 10);
   margin: 0;
 }
 
-.advantages__list{
+.advantages__list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.advantages__item--blue{
+.advantages__item--blue {
   background-color: $blue-basic;
   outline: 2px solid rgb(241, 10, 10);
   text-align: center;
-  color: $white
+  color: $white;
 }
 
-.advantages__title{
+.advantages__title {
   font-family: $basic-font;
   font-weight: bold;
   font-size: 18px;
@@ -24,15 +24,7 @@
   text-transform: uppercase;
 }
 
-.advantages__number{
-  font-family: $basic-font;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  text-transform: uppercase
-}
-
-.advantages__description{
+.advantages__number {
   font-family: $basic-font;
   font-weight: normal;
   font-size: 14px;
@@ -40,18 +32,27 @@
   text-transform: uppercase;
 }
 
-.advantages__list--white{
+.advantages__description {
+  font-family: $basic-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.advantages__list--white {
   background-color: $white;
   outline: 2px solid rgb(10, 52, 241);
   text-align: center;
 }
 
-.advantages__list--grey{
+.advantages__list--grey {
   background-color: $grey;
   outline: 2px solid rgb(241, 218, 10);
   text-align: center;
 }
 
-.advantages__item--line{
-  border-bottom: 1px solid #D9D9D9;
+.advantages__item--line {
+  border-bottom: 1px solid;
+  border-color: $grey-two;
 }
