@@ -1,0 +1,43 @@
+.offers {
+  background-color: $white;
+  outline: 2px solid rgb(241, 102, 10);
+  text-align: center;
+}
+
+.offers__container {
+  padding-bottom: 49px;
+}
+
+.offers__title {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.offers__description {
+  font-family: $basic-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.offers__button {
+  display: block;
+  background-color: $blue-basic;
+  color: $white;
+  font-family: $basic-font;
+  width: 280px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  padding: 14px 0;
+}
