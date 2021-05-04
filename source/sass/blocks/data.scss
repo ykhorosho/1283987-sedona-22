@@ -1,0 +1,48 @@
+.data {
+  outline: 2px solid #0aa8f1;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+}
+
+.data__title {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.data__list {
+  list-style: none;
+}
+
+.data__label {
+  font-family: $basic-font;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.data__input {
+  padding-top: 18px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  width: 192px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $black;
+  border: none;
+  background: $grey-three;
+}
+
+.data__item {
+  align-items: center;
+  padding: 0;
+}

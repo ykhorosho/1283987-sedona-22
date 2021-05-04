@@ -1,0 +1,45 @@
+.contact {
+  outline: 2px solid #8df10a;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+}
+
+.contact__title {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.contact__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact__label {
+  font-family: $basic-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.contact__input {
+  padding-top: 18px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  width: 280px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $black;
+  border: none;
+  background: $grey-three;
+}
