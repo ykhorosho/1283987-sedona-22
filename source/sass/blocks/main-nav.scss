@@ -1,0 +1,14 @@
+.main-nav {
+  outline: 2px solid rgb(241, 133, 10);
+  background-color: $blue-basic;
+  text-align: center;
+}
+
+.main-nav__toggle {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+  border: none;
+}
