@@ -1,0 +1,28 @@
+.video {
+  outline: 2px solid rgb(10, 118, 241);
+  margin: 0;
+}
+
+.video__title {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.video__text {
+  font-family: $basic-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+  width: 266px;
+  margin: 0 auto;
+}
