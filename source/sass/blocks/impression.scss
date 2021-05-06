@@ -1,0 +1,30 @@
+.impression {
+  outline: 2px solid #f15f0a;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+}
+
+.impression__title {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.impression__list {
+  list-style: none;
+}
+
+.impression__label {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+}
