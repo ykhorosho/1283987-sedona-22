@@ -1,0 +1,55 @@
+.photos {
+  outline: 2px solid rgb(241, 10, 172);
+  margin: 0;
+}
+
+.photos__title {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.photos__text {
+  font-family: $basic-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.photos__list {
+  list-style: none;
+}
+
+.photos__subtitle {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.photos__author {
+  font-family: $basic-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $black-two;
+}
+
+.photos__description {
+  font-family: $basic-font;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: $black;
+}
