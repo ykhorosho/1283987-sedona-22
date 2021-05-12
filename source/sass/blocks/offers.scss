@@ -2,10 +2,39 @@
   background-color: $white;
   outline: 2px solid rgb(241, 102, 10);
   text-align: center;
+  padding-top: 33px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 58px;
+  }
 }
 
 .offers__container {
+  outline: 2px solid rgb(10, 241, 106);
   padding-bottom: 49px;
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 458px;
+    padding-bottom: 58px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 66px;
+  }
+}
+
+.offers__img {
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    height: 350px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    height: 350px;
+  }
 }
 
 .offers__title {
@@ -15,6 +44,12 @@
   line-height: 26px;
   text-transform: uppercase;
   color: $black;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 26px;
+  }
 }
 
 .offers__description {
@@ -40,4 +75,8 @@
   text-align: center;
   margin: 0 auto;
   padding: 14px 0;
+
+  @media (min-width: $tablet-width) {
+    width: 458px;
+  }
 }
