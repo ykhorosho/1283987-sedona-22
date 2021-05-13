@@ -30,16 +30,26 @@
   line-height: 26px;
   text-transform: uppercase;
   color: $black;
+  padding-left: 22px;
 }
 
 .contact__input {
   padding-top: 18px;
   padding-bottom: 14px;
   padding-left: 22px;
-  width: 280px;
+  width: 260px;
   font-weight: bold;
-  text-transform: uppercase;
   color: $black;
   border: none;
   background: $grey-three;
+}
+
+.contact__item {
+  padding-bottom: 14px;
+}
+
+.contact__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

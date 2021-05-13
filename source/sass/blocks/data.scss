@@ -19,12 +19,13 @@
 
 .data__list {
   list-style: none;
+  padding: 0%;
 }
 
 .data__label {
   font-family: $basic-font;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
   color: $black;
@@ -34,15 +35,19 @@
   padding-top: 18px;
   padding-bottom: 14px;
   padding-left: 22px;
-  width: 192px;
   font-weight: bold;
   text-transform: uppercase;
   color: $black;
   border: none;
   background: $grey-three;
+  width: 180px; //? какой писать размер
 }
 
 .data__item {
   align-items: center;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
